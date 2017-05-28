@@ -1,0 +1,3 @@
+The best fitness was: 127.871 
+Average time for GA... 0.00309931 
+Average time for TF... 0.000747659 

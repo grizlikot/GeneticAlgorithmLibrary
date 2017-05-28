@@ -1,0 +1,18 @@
+{
+  "availableFitnessRepeats": 1,
+  "contestantAmount": 4,
+  "elitismIndivides": 1,
+  "geneDistance": 1,
+  "geneMutationPropability": 0.1,
+  "genesAmountMutation": 1,
+  "genesPercentageMutation": 0.05,
+  "iterationCount": 150,
+  "maxPopulationGeneration": 250,
+  "mutationDistance": 1,
+  "mutationPropability": 0.2,
+  "participatingElites": 1,
+  "populationSize": 30,
+  "sortedIndividual": true,
+  "useDiscretGeneration":  true 
+}
+

@@ -1,0 +1,62 @@
+{
+    "application": {
+        "name": "GA",
+        "version": {
+            "major": 1,
+            "minor": 0,
+            "patch": 0
+        }
+    },
+    "log": {
+        "file": {
+            "level": "debug"
+        },
+        "stdout": {
+            "colors_enabled": false,
+            "level": "error"
+        }
+    },
+    "vulkan": {
+        "debug": {
+            "enabled": false,
+            "level": "info",
+            "soft_fail": true
+        },
+        "device": {
+            "index": -1
+        },
+        "inject": {
+            "extensions": {
+                "device": {
+                    "list": [],
+                    "soft_fail": true
+                },
+                "instance": {
+                    "list": [],
+                    "soft_fail": true
+                }
+            },
+            "layers": {
+                "list": [],
+                "soft_fail": false
+            }
+        },
+        "swapchain": {
+            "min_buffer_count": 3,
+            "present_mode": "fifo",
+            "max_framerate": 144
+        }
+    },
+    "window": {
+        "fullscreen": false,
+        "height": 768,
+        "title": "Genetic Algorithm",
+        "width": 1366
+    },
+    "scene": {
+        "update": {
+            "mode": "fixed",
+            "rate": 150
+        }
+    }
+}

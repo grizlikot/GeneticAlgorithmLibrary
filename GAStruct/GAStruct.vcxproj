@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4ED97A40-1589-492E-AD57-6431F4BD1699}</ProjectGuid>
+    <RootNamespace>GAStruct</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(MSBuildProjectDirectory)\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>E:\VGTU\4 KURSAS\Bakalaurinis\GAStruct\GAStruct\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BinaryTournamentSelector.cpp" />
+    <ClCompile Include="CameraController.cpp" />
+    <ClCompile Include="CustomMutator.cpp" />
+    <ClCompile Include="Data.cpp" />
+    <ClCompile Include="Elitism.cpp" />
+    <ClCompile Include="FlipBitMutator.cpp" />
+    <ClCompile Include="Fundamentas.cpp" />
+    <ClCompile Include="GeneticEngine.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="AdvancedGenerator.cpp" />
+    <ClCompile Include="MockElitism.cpp" />
+    <ClCompile Include="MutationCustomTweaker.cpp" />
+    <ClCompile Include="MutationPropabilityTweaker.cpp" />
+    <ClCompile Include="MutationUniformTweaker.cpp" />
+    <ClCompile Include="Polis.cpp" />
+    <ClCompile Include="RankedParent.cpp" />
+    <ClCompile Include="RankBasedSelector.cpp" />
+    <ClCompile Include="SimpleGenerator.cpp" />
+    <ClCompile Include="SinglePointCrosser.cpp" />
+    <ClCompile Include="StopWatch.cpp" />
+    <ClCompile Include="TwoPointCrosser.cpp" />
+    <ClCompile Include="UniformCrosser.cpp" />
+    <ClCompile Include="UniformMutator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="frame_optimization.dll" />
+    <None Include="frame_optimization.exp" />
+    <None Include="frame_optimization2.dll" />
+    <None Include="frame_optimization2.exp" />
+    <None Include="Gamma.dll" />
+    <None Include="Gamma.exp" />
+    <None Include="GRILLAGE.dll" />
+    <None Include="GRILLAGE.exp" />
+    <None Include="MFCO42D.DLL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="frame_optimization.lib" />
+    <Library Include="frame_optimization2.lib" />
+    <Library Include="Gamma.lib" />
+    <Library Include="GRILLAGE.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BinaryTournamentSelector.h" />
+    <ClInclude Include="CameraController.h" />
+    <ClInclude Include="Crosser.h" />
+    <ClInclude Include="CustomMutator.h" />
+    <ClInclude Include="Data.h" />
+    <ClInclude Include="Elitism.h" />
+    <ClInclude Include="FlipBitMutator.h" />
+    <ClInclude Include="Fundamentas.h" />
+    <ClInclude Include="Generator.h" />
+    <ClInclude Include="GeneticEngine.h" />
+    <ClInclude Include="Grillage.h" />
+    <ClInclude Include="AdvancedGenerator.h" />
+    <ClInclude Include="MockElitism.h" />
+    <ClInclude Include="MutationCustomTweaker.h" />
+    <ClInclude Include="MutationTweaker.h" />
+    <ClInclude Include="MutationUniformTweaker.h" />
+    <ClInclude Include="Mutator.h" />
+    <ClInclude Include="MutationPropabilityTweaker.h" />
+    <ClInclude Include="Polis.h" />
+    <ClInclude Include="RankedParent.h" />
+    <ClInclude Include="RankBasedSelector.h" />
+    <ClInclude Include="Selector.h" />
+    <ClInclude Include="SimpleGenerator.h" />
+    <ClInclude Include="SinglePointCrosser.h" />
+    <ClInclude Include="StopWatch.h" />
+    <ClInclude Include="TwoPointCrosser.h" />
+    <ClInclude Include="UniformCrosser.h" />
+    <ClInclude Include="UniformMutator.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

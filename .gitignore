@@ -1,0 +1,4 @@
+*.VC.db
+.vs
+**/Debug
+**/Release
