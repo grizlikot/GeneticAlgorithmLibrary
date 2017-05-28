@@ -1,6 +1,6 @@
 # GeneticAlgorithmLibrary
 
-Genetic algorithm library for solving global optimization tasks.
+Genetinio algoritmo biblioteka skirta spręsti globaliojo optimizavimo uždavinius
 
 Naudojamos licencijos:
 Assimp v3.3.1 (3 clause BSD licencija) - https://github.com/assimp/assimp
