@@ -3,7 +3,7 @@ Projekto autorius: Ervin Miloš, VGTU IIf-13 gr. studentas.
 
 Genetinio algoritmo biblioteka skirta spręsti globaliojo optimizavimo uždavinius
 
-Naudojamos licencijos:
+Naudojamos bibliotekos:
 Assimp v3.3.1 (3 clause BSD licencija) - https://github.com/assimp/assimp
 
 GLFW v3.2.1 (zlib/libpng licencija) - https://github.com/glfw/glfw
