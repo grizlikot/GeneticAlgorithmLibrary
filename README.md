@@ -1,5 +1,5 @@
 # GeneticAlgorithmLibrary
-
+Projekto autorius: Ervin Miloš, VGTU IIf-13 gr. studentas.
 Genetinio algoritmo biblioteka skirta spręsti globaliojo optimizavimo uždavinius
 
 Naudojamos licencijos:
